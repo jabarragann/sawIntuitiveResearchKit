@@ -1,0 +1,18 @@
+/* -*- Mode: Javascript; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
+{
+    "arms": 
+    [
+        {
+            "name": "PSM2",
+            "type": "PSM",
+            "serial": "27374",
+            
+            //Helps find most files for the arm
+            "system": "jhu-dVRK-JAB",
+            
+            //Custom instrument definition
+            "arm": "custom-tool/PSM2-27374-Custom.json"
+            
+        }
+    ]
+}

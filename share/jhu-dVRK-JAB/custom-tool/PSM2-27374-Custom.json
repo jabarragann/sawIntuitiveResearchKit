@@ -1,0 +1,12 @@
+/* -*- Mode: Javascript; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
+{
+    // Tell the PSM class to load some new extra tool definitions, that file will define the CUSTOM_DUMMY tool
+    "custom-tool-index": "jhu-dVRK-JAB/custom-tool/custom-tool-index.json",
+    "kinematic": "kinematic/psm.json",
+    
+    // You need to use either MANUAL or FIXED
+    //"tool-detection": "MANUAL"
+    // If fixed, make sure you use the name:model based on the fields you added to your "custom-tool-index"
+    "tool-detection": "FIXED",
+    "tool": "CUSTOM_CADIERE_FORCEPS:400028"
+}
