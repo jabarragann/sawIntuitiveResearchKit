@@ -14,3 +14,11 @@ wstool merge https://raw.githubusercontent.com/jabarragann/sawIntuitiveResearchK
 wstool up                          # now wstool knows which repositories to pull, let's get the code
 catkin build --summary             # ... and finally compile everything
 ```
+
+Next, configure cmake with the Atracsys SDK version you want to use.
+
+Finally recompile with
+
+```
+catkin build --force-cmake
+```
